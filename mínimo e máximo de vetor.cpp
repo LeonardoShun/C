@@ -35,3 +35,16 @@ void maximo(int arr[], int tamanho) {
     cout << "\nMáximo: " << max;
 }
 
+int main() {
+    
+    int tamanho;
+    cout << "Tamanho do vetor: "; cin >> tamanho;
+    cout << "\n";
+    int arr[tamanho];
+    
+    criaVetor(arr, tamanho);
+    minimo(arr, tamanho);
+    maximo(arr, tamanho);
+
+    return 0;
+}
